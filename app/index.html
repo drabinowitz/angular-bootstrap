@@ -11,7 +11,19 @@
 </head>
 <body>
 
-  <div ng-view></div>
+  <div ng-controller = "uiBootstrapAccordionCtrl">
+    <h1>Working with Angular bootstrap</h1>
+
+    <accordion close-others="false">
+      
+      <accordion-group heading="{{ folder.title }}" ng-repeat="folder in accordion">
+
+        {{ folder.content }}
+
+      </accordion-group>
+
+    </accordion>
+  </div>
 
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="bower_components/angular/angular.js"></script>

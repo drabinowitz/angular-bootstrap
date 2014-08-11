@@ -13,6 +13,8 @@
     "bootstrap-ui": "~0.11.0",
     "angular-ui": "~0.4.0",
     "angular-foundation": "~0.3.0",
-    "base64codec": "~0.0.4"
+    "base64codec": "~0.0.4",
+    "angular-bootstrap": "~0.11.0",
+    "angular-route": "~1.2.21"
   }
 }
