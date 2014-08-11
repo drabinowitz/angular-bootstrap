@@ -11,7 +11,7 @@
 </head>
 <body>
 
-  <div ng-controller = "uiBootstrapAccordionCtrl">
+  <div ng-controller = "uiBootstrapCtrl">
     <h1>Working with Angular bootstrap</h1>
 
     <accordion close-others="false">
@@ -25,11 +25,18 @@
     </accordion>
   </div>
 
+  <div ng-controller="angularStrapCtrl">
+    <h1>Working with AngularStrap</h1>
+    <button type="button" class="btn btn-lg btn-primary" data-placement="center" bs-modal="modal">Click to toggle modal</button>
+  </div>
+
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
 	<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
 	<script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
 	<script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script type="text/javascript" src="bower_components/angular-strap/dist/angular-strap.js"></script>
+  <script type="text/javascript" src="bower_components/angular-strap/dist/angular-strap.tpl.js"></script>
 	<script type="text/javascript" src="bower_components/base64codec/base64codec.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 

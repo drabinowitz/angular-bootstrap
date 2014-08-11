@@ -1,6 +1,6 @@
-angular.module('ngBootstrapApp',['ui.bootstrap']).
+angular.module('ngBootstrapApp',['ui.bootstrap','mgcrea.ngStrap']).
 
-  controller('uiBootstrapAccordionCtrl',['$scope',function($scope){
+  controller('uiBootstrapCtrl',['$scope',function($scope){
 
     $scope.accordion = [
 
@@ -21,5 +21,17 @@ angular.module('ngBootstrapApp',['ui.bootstrap']).
       }
 
     ];
+
+  }]).
+
+  controller('angularStrapCtrl',['$scope',function($scope){
+
+    $scope.modal = {
+
+      "title" : "Title",
+
+      "content" : "Hello Modal <br /> This is a multiline message!"
+
+    };
 
   }]);
